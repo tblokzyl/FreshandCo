@@ -1,0 +1,300 @@
+body {font-family: 'work sans', sans-serif; font-weight: 400;}
+
+/* Utility */
+
+
+h1, h2 {font-family: 'eczar', serif; margin-bottom: 0; color:#1D2533}
+h5, h6 {font-family: 'work sans', sans-serif; font-weight: 300;}
+
+ul li {list-style-type: none;}
+
+hr {margin: 8px 0; width: 100%; border-color:rgba(145, 151, 163, .2)}
+
+.rounded {	border-radius: 3px;}
+.row-100 {max-width: 100%;}
+.row-125 {width: 125%;}
+.grey {background-color:#FAFAFA; }
+.green-background {background:#5BD982; color:white; font-weight: bold;}
+.display-inline {display: inline-block;}
+.flex {display: flex; align-items: center;}
+.flex-center {display: flex; justify-content: center; align-items: center;}
+.flex-right {display: flex; justify-content: flex-end; align-items: center;}
+.flex-left {display: flex; justify-content: flex-start; align-items: center;}
+.flex-vert {display: flex; align-items: : center;}
+.button {padding: 15px 15px; width:25%; margin-top: 24px}
+
+/* Navigation */
+
+
+.dropdown.menu a {
+    padding: .75rem 1.25rem;
+    background:transparent;
+    color:white;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.dropdown.menu a:active, .dropdown.menu a:hover {
+	background:#5BD982;
+	color:#fff;
+} 
+
+.signin-nav {
+	background:#5BD982 !important;
+	margin: auto 30px auto 20px;
+}
+
+.top-bar {
+	padding: 30px .7rem;
+	background:transparent;
+	z-index: 20;
+	position: relative;
+	top: 0;
+}
+
+
+/* Hero */
+
+
+.hero {
+	background-image:url('../img/hero.jpg');
+	background-size: cover;
+	height:100vh;
+	width:100%;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+}
+
+.hero-mask {
+	margin-top:100vh;
+	width: 100%;
+	z-index: -2;
+	position: absolute;
+}
+
+.hero-content { 
+	margin-top: calc(50vh - 147px);
+	font-size: 14px;
+	text-align: center;
+	color:white;
+}
+
+[type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea {
+	padding: 20px 15px;
+	margin: 40px 0 0;
+	font-size: 14px;
+	color: black;
+}
+
+.hero-submit {
+	width:calc(100%);
+	padding: 15px 0;
+	background:#5BD982;
+	color:white;
+	border:none;
+	display: block;
+	margin-bottom: 14px
+}
+
+.hero-legal { margin-top: 30px;}
+.hero-legal a { color:#BBBBBB; }
+.hero-legal a:hover { color: grey; }
+
+.home-content { margin-top: -98px}
+.home-about {
+	padding: 15vh 0;
+}
+.home-food {padding: 12vh 0 0;}
+
+.carousel-container {
+	width:95%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-left: 2.5%;
+	padding-bottom: 11vh;
+}
+
+.what-you-get { padding-bottom: 32px; }
+
+.carousel-container img {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.carousel-container a img {
+	top: 50%;
+	position: relative;
+	width:28px;
+	opacity: .3;
+}
+
+.carousel-container a img:first-child { margin-left:30px; }
+.carousel-container a img:last-child { margin-right:50px; }
+
+.carousel-container a img:hover { opacity: 1; }
+
+.carousel-review {
+	width:70%;
+	margin-left:15%;
+}
+
+.carousel-review h6 {
+	font-family: 'eczar', serif; margin-bottom: 0;
+	text-align: center;
+	margin-top:-55%;
+	font-size: 14px;
+}
+
+.stars {
+	font-size:12px;
+	 color:#FFD45F;
+}
+.calorie-star {
+	display: flex; 
+	justify-content: center; 
+	margin-top:3px;
+}
+
+.calories {
+	font-size:12px; 
+	font-family: 'work sans', sans-serif; 
+	font-weight: 400; 
+	opacity: .7; 
+	margin-right:7px;
+}
+
+.gray {color:#9197A3;}
+
+.pricing-button {
+	padding-bottom: 10vh;
+	font-size: 14px;
+}
+
+.steps h1 {
+	font-size: 36px; 
+	padding-top: 6px;
+}
+
+.steps h5 {
+	padding-top: 8px; 
+	font-size: 14px; 
+	font-family: 'work sans'; 
+	line-height: 20px; 
+	font-weight: 400;
+}
+
+.step-number {
+	font-size:12px;
+	font-weight: bold;
+	padding: 2px 15px; 
+	width: 72px;
+}
+
+.testimony {  }
+.testimony .medium-4 {padding: 40px 40px; margin:0px 0 20px;}
+.home-signup-lower {
+	padding: 10vh 0;
+}
+
+.waffle {
+	background:url(../img/waffle.png);
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0;
+	color: white;
+}
+
+.waffle h2 {color:white; font-size: 32px}
+.waffle h5 {font-size: 16px}
+.waffle h2, .waffle h5 {padding:0 2.5%;}
+.footer li {  padding: 0 20px; margin: 0 auto;
+    display: inline-block; }
+.footer ul {text-align: center;}
+
+/* Pricing */
+
+.subscription-img {
+	width: 80%;
+	padding: 60px 10% 20px;
+}
+
+.price {
+	color:#5BD982;
+	padding-top: 40px;
+	font-family: eczar;
+	font-size: 36px;
+}
+
+.food-showcase {
+	background:url(../img/peach.jpg);
+	background-size: cover;
+	background-position: bottom center;
+	height: 45vh;
+}
+
+.food-showcase2 {
+	background:url(../img/about.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+}
+
+.food-items {
+	padding:40px 0;
+}
+
+.subscribe-fields {padding: 25px 15px; margin:0}
+
+.personal-info {margin: 20px 0}
+
+@media screen and (max-width: 640px) {
+	.hero-content { margin-top: calc(50vh - 180px); }
+	.home-content {
+		margin-top: -49px;
+	}
+
+	[type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea {
+		padding: 20px 15px;
+		margin: 0px 2.5% 0;
+		font-size: 12px;
+		width:95%;
+	}
+	.hero-submit { width:calc(95%); margin-left: 7.5px }
+	.hero-legal { margin-top: 10px;}
+	.hero h1 { font-size:48px; }
+	.home-about h2 { font-size: 24px; }
+	.hero h5 { margin: 0 2.5% 40px; }
+	.hero-legal { margin:15px 5% 0; }
+
+	.carousel-container a i { display: none; }
+	.carousel-container img {margin: 20px auto; position: absolute; z-index: 0;}
+
+	.small-grey {background:#FAFAFA;}
+	.steps h1 {font-size: 24px}
+
+	.home-signup-lower h5 { margin: 0 0 40px; }
+
+	.button {width:calc(100% - 40px); margin: 40px 0}
+
+
+}	
+
+@media screen and (max-width: 1172px) {
+.calories {font-size: .9vw;}
+.stars {font-size: .9vw; }
+
+.carousel-review h6 {
+	margin-top:-50%;
+	font-size: 1.3vw;
+}
+
+
+
+.steps {padding:40px 30px; margin:auto 0;}
+.waffle h2 {color:white; font-size: 24px}
+.waffle h5 {font-size: 12px}
+.waffle h2, .waffle h5, .waffle input {padding:0 5%;}
+}	
