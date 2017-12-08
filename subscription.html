@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+ 	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<title>Fresh & Co</title>
+
+  	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation-float.min.css'>
+
+	<link href="https://fonts.googleapis.com/css?family=Eczar:|Work+Sans:300,400,600" rel="stylesheet">
+
+  	<link href="css/style.css" rel="stylesheet">
+
+	<script src="https://use.fontawesome.com/7d8c147b4a.js"></script>
+
+</head>
+
+
+
+<body>
+
+<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+
+  <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+
+  <div class="title-bar-title">Menu</div>
+
+</div>
+
+<div class="top-bar" id="example-menu">
+
+	<div class="row-100">
+
+		<ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+
+			<div class="top-bar-left">
+
+				<li><a style="color:black; font-family: 'eczar'; font-size:20px; line-height: 10px" href="C:\Users\Tim\Documents\Niagara College\Web Design\Project Design Lab\Fresh & Co\index.html">Fresh & Co.</a></li>
+
+			</div>
+
+			<div class="top-bar-right">
+
+			  <li><a style="color:black" href="http://timblokzyl.ca/fresh-and-co/index.html">Home</a></li>
+
+			  <li><a style="color:black" href="http://timblokzyl.ca/fresh-and-co/about.html">About</a></li>
+
+			  <li><a style="color:black" href="http://timblokzyl.ca/fresh-and-co/pricing.html">Pricing</a></li>
+
+			  <li><a href="http://timblokzyl.ca/fresh-and-co/index.html" class="signin-nav rounded">Sign Out</a></li>
+
+		  	</div>
+
+		</ul>
+
+	</div>
+
+</div>
+
+	<div id="view" class="visible">
+
+			<div class="row">
+
+		<h2 class="text-center margin-top10vh">Personal Info</h2>
+
+	</div>
+
+	  <div class="row">
+
+		<div class="small-offset-0 medium-10 medium-offset-1 large-8 large-offset-2">
+
+		    <div class="row">
+
+			    <div class="medium-6 columns">
+
+			        <input disabled type="text" placeholder="Timothy" required>
+
+			    </div>
+
+			    <div class="medium-6 columns">
+
+			        <input disabled type="text" placeholder="Blokzyl" required>
+
+			    </div>
+
+			</div>
+
+			<div class="row">
+
+			    <div class="medium-6 columns">
+
+			        <input disabled="" type="text" placeholder="18 McNaughton Road" required pattern="[a-zA-Z0-9 ]">
+
+			    </div>
+
+			    <div class="medium-6 columns">
+
+			        <input disabled type="text" placeholder="Welland" required>
+
+			    </div>
+
+			</div>
+
+			<div class="row">
+
+			    <div class="medium-6 columns">
+
+			        <input disabled type="text" placeholder="ON" required>
+
+			    </div>
+
+			    <div class="medium-6 columns">
+
+			        <input disabled type="text" placeholder="Canada" required>
+
+			    </div>
+
+			  </div>
+
+			</div>
+
+		  	<div class="row">
+
+			    <fieldset class="text-center columns">
+
+			      <button id="btn-edit" class="button" class="button" value="edit">Edit</button>
+
+			    </fieldset>
+
+			</div>
+
+		</div>
+
+	</div>
+
+<form id="edit" data-abide class="invisible">
+
+		<div class="row">
+
+		<h2 class="text-center margin-top10vh">Personal Info</h2>
+
+	</div>
+
+<div>
+
+  <div data-abide-error class="alert callout" style="display: none;">
+
+    <p class="text-center"><i class="fi-alert"></i> There are some errors in your form.</p>
+
+  </div>
+
+  <div class="row">
+
+	<div class="small-offset-0 medium-8 medium-offset-2 large-8 large-offset-2">
+
+	<div class="row">	
+
+	    <div class="medium-6 columns">
+
+	        <input type="text" value="Timothy" placeholder="First Name" required>
+
+	        <span class="form-error" style="margin: 8px 0 0 8px">
+
+	          Yo, you had better fill this out, it's required.
+
+	        </span>
+
+	    </div>
+
+	    <div class="medium-6 columns">
+
+	        <input type="text" id="password" value="Blokzyl" placeholder="Last Name" required >
+
+	        <span class="form-error" style="margin: 8px 0 0 8px">
+
+	          Yo, you had better fill this out, it's required.
+
+	        </span>
+
+	    </div>
+
+	</div>
+
+	<div class="row">	
+
+	    <div class="medium-6 columns">
+
+	        <input type="text" value="18 McNaughton Road" placeholder="Street Address" required>
+
+	        <span class="form-error" style="margin: 8px 0 0 8px">
+
+	          We need your address to deliver your food on time!
+
+	        </span>
+
+	    </div>
+
+	    <div class="medium-6 columns">
+
+	        <input type="text" value="Welland" placeholder="City" required>
+
+	        <span class="form-error" style="margin: 8px 0 0 8px">
+
+	          We need your address to deliver your food on time!
+
+	        </span>
+
+	    </div>
+
+	</div>
+
+	<div class="row">
+
+	    <div class="medium-6 columns">
+
+	        <input type="text" value="ON" placeholder="Province" required>
+
+	        <span class="form-error" style="margin: 8px 0 0 8px">
+
+	          Yo, you had better fill this out, it's required.
+
+	        </span>
+
+	    </div>
+
+	    <div class="medium-6 columns">
+
+	        <input type="text" value="Canada" placeholder="Country" required>
+
+	        <span class="form-error" style="margin: 8px 0 0 8px">
+
+	          Yo, you had better fill this out, it's required.
+
+	        </span>
+
+	    </div>
+
+	  </div>
+
+	</div>
+
+  <div class="row">
+
+    <fieldset class="text-center columns">
+
+      <button id="btn-submit" class="button" type="submit" class="button" value="submit">Submit</button>
+
+    </fieldset>
+
+	</div>
+
+</div>
+
+</div>
+
+</form>
+
+
+
+<div class="row" style="margin-top: 15vh">
+
+<div class="medium-10 medium-offset-1 large-8 large-offset-2 columns text-center">
+
+			<h2>Subscription Type</h2>
+
+		<div class="text-center" style="color:#BBB; margin-top: 24px;">
+
+			<div class="medium-4 columns hover" style="cursor: pointer;">
+
+				<img class="subscription-img" src="img/quarter.png" style=" filter: grayscale(100%) brightness(0%) invert(20%); ">
+
+				<h4>Single</h4>
+
+				<ul class="food-items">
+
+					<li>1 Diner<hr/></li>
+
+					<li>1 Side Salad<hr/></li>
+
+					<li>1 Fresh Roll<hr/></li>
+
+					<li>1 Drink<hr/></li>
+
+					<li>1 Dessert<hr/></li>
+
+					<h3 class="price">$9.99</h3>
+
+				</ul>
+
+			</div>
+
+			<div class="medium-4 columns" style=" color:white; cursor: pointer;  border-radius:10px; background: #5BD982;" >
+
+				<img class="subscription-img" src="img/half.png" style="filter: brightness(0%) invert(100%); ">
+
+				<h4>Couple</h4>
+
+				<ul class="food-items">
+
+					<li>2 Diner<hr style="border-color: #e8e8e8" /></li>
+
+					<li>2 Side Salad<hr style="border-color: #e8e8e8"/></li>
+
+					<li>2 Fresh Roll<hr style="border-color: #e8e8e8"/></li>
+
+					<li>2 Drink<hr style="border-color: #e8e8e8"/></li>
+
+					<li>2 Dessert<hr style="border-color: #e8e8e8"/></li>
+
+					<h3 class="price" style="color:white">$18.99</h3>
+
+				</ul>
+
+			</div>
+
+			<div class="medium-4 columns hover" style="cursor: pointer;">
+
+				<img class="subscription-img" src="img/whole.png" style=" filter: grayscale(100%) brightness(0%) invert(20%); ">
+
+				<h4>Full</h4>
+
+				<ul class="food-items">
+
+					<li>4 Diner<hr/></li>
+
+					<li>4 Side Salad<hr/></li>
+
+					<li>4 Fresh Roll<hr/></li>
+
+					<li>4 Drink<hr/></li>
+
+					<li>4 Dessert<hr/></li>
+
+					<h3 class="price">$36.99</h3>
+
+				</ul>
+
+			</div>
+
+			<a href="#" style="margin-top: 36px;" class="rounded green-background button">Edit</a>
+
+
+
+			<h2 class="text-center" style="margin: 10vh 0 24px; color:#1D2533">Payment Info</h2>
+
+			<div class="medium-9 columns">
+
+				<input class="rounded subscribe-fields" type="text" name="CardNumber" placeholder="Card Number" maxlength="19"><br>
+
+			</div>
+
+			<div class="medium-3 columns">
+
+				<input class="rounded subscribe-fields" type="text" name="CVV" placeholder="CVV"><br>
+
+			</div>
+
+			<div class="medium-5 columns">
+
+				<input class="rounded subscribe-fields" type="text" name="expirydate" placeholder="Expiry Date"><br>
+
+			</div>
+
+			<div class="medium-12 columns">
+
+				<a href="#" style="margin-bottom: 10vh" class="rounded green-background button">Edit</a>
+
+			</div>
+
+			
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+		<div class="row">
+
+			<div class="medium-6 medium-offset-3 columns">
+
+			<ul class="footer medium-8 medium-offset-2" style="list-style-type: none; padding:40px 0 20px;">
+
+				<li>Home</li>
+
+				<li>About</li>
+
+				<li>Pricing</li>
+
+				<li>Sign In</li>
+
+			</ul>
+
+			</div>
+
+			<hr/>
+
+			<p class="text-center" style="padding: 20px 0 10px">© 2017 Company. All rights reserved</p>
+
+		</div>
+
+
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  	<script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js'></script>
+
+	<script src="js/app.js"></script>
+
+
+
+</body>
+
+</html>
+

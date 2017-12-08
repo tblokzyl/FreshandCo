@@ -1,0 +1,38 @@
+.carousel_container
+{
+	/* float:left; */ /* necessary for in line position */
+	/* width:630px; */ /* list item width + its margin */
+	overflow:hidden; /*hides items outside the width */
+	/* add extra styling below this line*/
+	margin: 0 auto;
+	max-width: 1200px;
+	/* padding-left: 6vw; */
+	/* border: 5px solid #000; */
+}
+
+.car
+{
+	position: relative;
+	list-style-type:none;
+	width: 1320px;
+	/* add extra styling below this line*/
+	/* max-width: 1600px; */
+}
+
+.car  li
+{
+	float:left;
+	width: 23%;
+	/* add extra styling below this line*/
+	height: 450px;
+}
+
+.car li img
+{
+	/* width:210px; */
+	/* height:110px; */
+}
+
+body > div.hero-mask > div > div.grey.hide-for-small-only > div.carousel_container > ul > li > div{padding-left: 0px;}
+
+body > div.hero-mask > div > div.grey.hide-for-small-only > div.carousel_container > ul {margin-left: 0px;}

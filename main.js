@@ -1,0 +1,15 @@
+$(
+	function()
+	{
+		$(".carousel").carousel_auto({interval:1000})
+					.mouseover(function()
+					{
+						$(".carousel").carousel_auto().carousel_auto("stop");
+					})
+					.mouseout(function()
+					{
+						$(".carousel").carousel_auto().carousel_auto("start");
+					}
+				);
+	}
+);

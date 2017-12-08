@@ -6,11 +6,14 @@ body {font-family: 'work sans', sans-serif; font-weight: 400;}
 h1, h2 {font-family: 'eczar', serif; margin-bottom: 0; color:#1D2533}
 h5, h6 {font-family: 'work sans', sans-serif; font-weight: 300;}
 
+ul {margin-left: 0}
 ul li {list-style-type: none;}
-
+input[disabled] {background: #f7f7f7; color:black;}
 hr {margin: 8px 0; width: 100%; border-color:rgba(145, 151, 163, .2)}
-
-.rounded {	border-radius: 3px;}
+.margin-top10vh {margin-top: 10vh;}
+.visible {display: auto;}
+.invisible {display: none;}
+.rounded { border-radius: 3px;}
 .row-100 {max-width: 100%;}
 .row-125 {width: 125%;}
 .grey {background-color:#FAFAFA; }
@@ -21,10 +24,22 @@ hr {margin: 8px 0; width: 100%; border-color:rgba(145, 151, 163, .2)}
 .flex-right {display: flex; justify-content: flex-end; align-items: center;}
 .flex-left {display: flex; justify-content: flex-start; align-items: center;}
 .flex-vert {display: flex; align-items: : center;}
-.button {padding: 15px 15px; width:25%; margin-top: 24px}
+.button { margin-top: 35px; padding:15px 50px; background:#5BD982; border-radius: 4px}
+.hover:hover {background: #e8e8e8; color:black; border-radius: 10px}
 
 /* Navigation */
 
+input[required], select[required] {border-radius: 2px; margin-top: 24px;  padding: 16px 20px; color:black}
+
+.title-bar {
+	color:black;
+	background: white;
+}
+
+.menu-icon::after {
+	background: black;
+    box-shadow: 0 7px 0 black, 0 14px 0 black;
+}
 
 .dropdown.menu a {
     padding: .75rem 1.25rem;
@@ -80,12 +95,14 @@ hr {margin: 8px 0; width: 100%; border-color:rgba(145, 151, 163, .2)}
 	color:white;
 }
 
-[type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea {
-	padding: 20px 15px;
-	margin: 40px 0 0;
+[type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea, select[required] {
+	padding: 18px 15px;
+	margin: 24px 0 0;
 	font-size: 14px;
 	color: black;
+height: 100%;
 }
+
 
 .hero-submit {
 	width:calc(100%);
@@ -108,7 +125,7 @@ hr {margin: 8px 0; width: 100%; border-color:rgba(145, 151, 163, .2)}
 .home-food {padding: 12vh 0 0;}
 
 .carousel-container {
-	width:95%;
+	width:80%;
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -246,7 +263,7 @@ hr {margin: 8px 0; width: 100%; border-color:rgba(145, 151, 163, .2)}
 	padding:40px 0;
 }
 
-.subscribe-fields {padding: 25px 15px; margin:0}
+.subscribe-fields {padding: 16px 20px; margin:0}
 
 .personal-info {margin: 20px 0}
 
@@ -279,6 +296,18 @@ hr {margin: 8px 0; width: 100%; border-color:rgba(145, 151, 163, .2)}
 
 	.button {width:calc(100% - 40px); margin: 40px 0}
 
+.dropdown.menu a {
+    padding: .75rem 1.25rem;
+    background:transparent;
+    color:black;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.dropdown.menu a:active, .dropdown.menu a:hover {
+	background:white;
+	color:black;
+} 
 
 }	
 

@@ -7,6 +7,11 @@
   	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation-float.min.css'>
 	<link href="https://fonts.googleapis.com/css?family=Eczar:|Work+Sans:300,400,600" rel="stylesheet">
   	<link href="css/style.css" rel="stylesheet">
+	<script src='jquery-3.1.0.js'></script>
+	<script src='jquery-ui.js'></script>
+	<script src='main.js'></script>
+	<script src='carousel.js'></script>
+		<link rel='stylesheet' type='text/css' href='css/carousel_auto.css'>
 	<script src="https://use.fontawesome.com/7d8c147b4a.js"></script>
 </head>
 
@@ -19,10 +24,10 @@
 	<div class="row-100">
 		<ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
 			<div class="top-bar-right">
-			  <li><a href="C:\Users\Tim\Documents\Niagara College\Web Design\Project Design Lab\Fresh & Co\index.html">Home</a></li>
-			  <li><a href="C:\Users\Tim\Documents\Niagara College\Web Design\Project Design Lab\Fresh & Co\about.html">About</a></li>
-			  <li><a href="C:\Users\Tim\Documents\Niagara College\Web Design\Project Design Lab\Fresh & Co\pricing.html">Pricing</a></li>
-			  <li><a href="C:\Users\Tim\Documents\Niagara College\Web Design\Project Design Lab\Fresh & Co\subscription.html" class="signin-nav rounded">Sign In</a></li>
+			  <li><a href="http://timblokzyl.ca/fresh-and-co/index.html">Home</a></li>
+			  <li><a href="http://timblokzyl.ca/fresh-and-co/about.html">About</a></li>
+			  <li><a href="http://timblokzyl.ca/fresh-and-co/pricing.html">Pricing</a></li>
+			  <li><a href="http://timblokzyl.ca/fresh-and-co/subscription.html" class="signin-nav rounded">Sign In</a></li>
 		  	</div>
 		</ul>
 	</div>
@@ -36,13 +41,13 @@
 					<div class="row">
 						<div class="medium-offset-2 medium-8 columns">
 							<div class="medium-6 columns">
-								<input class="rounded" style="padding: 25px 15px" type="text" name="FullName" placeholder="Full Name"><br>
+								<input class="rounded" type="text" name="FullName" placeholder="Full Name"><br>
 							</div>
 							<div class="medium-6 columns">
-								<input class="rounded" style="padding: 25px 15px"  type="text" name="Email" placeholder="Email"><br>
+								<input class="rounded"  type="text" name="Email" placeholder="Email"><br>
 							</div>
 							<div class="medium-12 columns">
-							<a href="C:\Users\Tim\Documents\Niagara College\Web Design\Project Design Lab\Fresh & Co\subscription.html" class="hero-submit rounded" data-reveal-id="myModal">Join Fresh & Co.</a>
+							<a href="http://timblokzyl.ca/fresh-and-co/subscription.html" class="hero-submit rounded" data-reveal-id="myModal">Join Fresh & Co.</a>
 						</div>
 							<!--<div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
 							  <h2 id="modalTitle">Awesome. I have it.</h2>
@@ -76,10 +81,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="carousel-container">
-				<a href=""><img src="img/left-chevron.svg"></a>
-				<div class="row">
-					<div class="large-3 medium-4 columns">
+<div class="carousel_container">
+					<ul class="carousel car">
+					
+						
+						<li><div class="columns">
 						<img src="img/carousel1.jpg"/>
 						<div class="carousel-review">
 							<h6>Creamy Garlic Butter Tuscan Salmon</h6>
@@ -94,29 +100,29 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="large-3 medium-4 columns">
+					</div></li>
+						<li><div class="columns">
 						<img src="img/carousel2.jpg"/>
 						<div class="carousel-review">
-							<h6>Pasta Primevera</h6>
+							<h6>Creamy Garlic Butter Tuscan Salmon</h6>
 							<div class="calorie-star">
-								<h5 class="calories display-inline">330 Calories</h5>
+								<h5 class="calories display-inline">345 Calories</h5>
 								<div class="stars display-inline">
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
-									<i class="fa fa-star gray"></i>
+									<i class="fa fa-star"></i>
 									<i class="fa fa-star gray"></i>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="large-3 medium-4 columns">
+					</div></li>
+						<li><div class="columns">
 						<img src="img/carousel3.jpg"/>
 						<div class="carousel-review">
-							<h6>Barbecue Chicken Pizza with Zucchini</h6>
+							<h6>Creamy Garlic Butter  Salmon</h6>
 							<div class="calorie-star">
-								<h5 class="calories display-inline">330 Calories</h5>
+								<h5 class="calories display-inline">345 Calories</h5>
 								<div class="stars display-inline">
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
@@ -126,13 +132,13 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="large-3 hide-for-medium-only columns">
+					</div></li>
+						<li><div class="columns">
 						<img src="img/carousel4.jpg"/>
 						<div class="carousel-review">
-							<h6>Chicken Pho</h6>
+							<h6>Creamy Garlic Butter Tuscan Salmon</h6>
 							<div class="calorie-star">
-								<h5 class="calories display-inline">270 Calories</h5>
+								<h5 class="calories display-inline">345 Calories</h5>
 								<div class="stars display-inline">
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
@@ -142,10 +148,10 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div></li>
+					
+					</ul>
 				</div>
-				<a href=""><img src="img/right-chevron.svg"></a>
-			</div>
 			<div class="pricing-button text-center">
 				<div class="row">
 					<div class="medium-offset-4 medium-4">
@@ -162,7 +168,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row-100 row flex">
+		<div class="row-100 flex" style="margin-right:0">
 			<div class="small-12 medium-offset-1 medium-4 large-offset-2 large-3  columns">
 				<div class="steps">
 					<h6 class="step-number green-background rounded">STEP 1</h6>
@@ -244,10 +250,10 @@
 					<div class="row">
 						<div class="medium-offset-2 medium-8 columns">
 							<div class="medium-6 columns">
-								<input class="rounded" style="padding: 25px 15px" type="text" name="FullName" placeholder="Full Name"><br>
+								<input class="rounded" type="text" name="FullName" placeholder="Full Name"><br>
 							</div>
 							<div class="medium-6 columns">
-								<input class="rounded" style="padding: 25px 15px"  type="text" name="Email" placeholder="Email"><br>
+								<input class="rounded" type="text" name="Email" placeholder="Email"><br>
 							</div>
 							<div class="medium-12 columns">
 							<a href="C:\Users\Tim\Documents\Niagara College\Web Design\Project Design Lab\Fresh & Co\subscription.html" class="hero-submit rounded" data-reveal-id="myModal">Join Fresh & Co.</a>
@@ -298,7 +304,7 @@
 
 
 
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+	<!--<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>-->
   	<script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js'></script>
 	<script src="js/app.js"></script>
 
